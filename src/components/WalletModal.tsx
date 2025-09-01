@@ -7,7 +7,7 @@ interface WalletModalProps {
   onClose: () => void;
 }
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://www.niftybulks.com/api';
 
 interface WalletTransaction {
   _id: string;

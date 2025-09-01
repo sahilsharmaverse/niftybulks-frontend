@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { User, LogOut, Edit } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://www.niftybulks.com/api';
 
 const ProfileDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
